@@ -8,8 +8,8 @@
     "compile": "hardhat compile",
     "test": "hardhat test",
     "coverage": "hardhat coverage",
-    "deploy": "hardhat deploy --network",
-    "verify": "hardhat verify --network"
+    "deploy": "hardhat deploy --network mumbai",
+    "verify": "hardhat verify --network mumbai"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-ethers": "^3.0.0",
