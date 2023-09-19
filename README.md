@@ -1,13 +1,29 @@
-# Sample Hardhat Project
+# FCFM Workshop
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Este repositorio contiene los ejercicios realizados en el workshop de FCFM.
 
-Try running some of the following tasks:
+## Instalación
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+### Requisitos
+- Node.js
+- git
+- yarn o npm
+- vscode (opcional)
+
+### Pasos
+1. Clonar el repositorio
+```bash
+git clone https://github.com/djaciel/fcfm-workshop.git
 ```
+
+2. Instalar dependencias
+```bash
+yarn install
+```
+
+### Scripts
+- `yarn compile`: Compila el código de Solidity
+- `yarn test`: Ejecuta las pruebas unitarias
+- `yarn coverage`: Genera el reporte de cobertura de las pruebas unitarias
+- `yarn deploy`: Despliega el contrato en la blockchain de prueba Mumbai
+- `yarn verify ADDRESS_DEL_CONTRATO`: Verifica el contrato desplegado en la blockchain de prueba Mumbai
