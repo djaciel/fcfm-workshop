@@ -10,6 +10,7 @@ const config: HardhatUserConfig = {
   solidity: "0.8.19",
   gasReporter: {
     currency: 'USD',
+    enabled: true,
   },
   networks: {
     hardhat: {
